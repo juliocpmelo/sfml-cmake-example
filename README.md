@@ -7,7 +7,7 @@ SFM self contained example to be built with windows mingw
    3. If configured correctly the command `g++ --version` on the power shell will output something like the following image:
 
     <img src="./pics/mingw_version.png" width="350">
-    
+
    4. You should also be able to run `mingw32-make.exe --version` to check the mingw-make, if installed the output should be the following:
    
     <img src="./pics/mingw-make_version.png" width="350">
@@ -24,3 +24,4 @@ SFM self contained example to be built with windows mingw
    cmake .. -G"MinGW Makefiles"
    cmake --build . --target sfml_test
    ```
+4. This example is a slightly modified version of SFML's Pong Example, I only changed the location of the resources to be compatible with the build point. To run the example just type `.\compile_code.exe` on the terminal or double click the executable on the build folder.
